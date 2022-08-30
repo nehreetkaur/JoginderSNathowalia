@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+
+
+
+
+
+
+
+
 /*Navbar*/
 .navbar{
     display:flex;
@@ -70,7 +78,29 @@
 
 
 }
+/*first image settings**/
+.img1{
+   
+    height:300px;
+    width:200px;
+    margin-right:930px;
+    border-radius:12% ;
+    
+}
 
+.head1{
+    margin-left:-140px;
+    margin-top: -190px;
+    font-size:2rem;
+}
+
+
+#sugar{
+    font-family: cursive;
+    color:aquamarine
+}
+
+/*first image settings ends*/
 .main{
     display:flex;
     flex-direction: column;
