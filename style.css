@@ -53,9 +53,10 @@
 
 }
 
+/*navbar ends*/
 /*Home Section*/
 
-#home{
+ #home{
     display:flex;
     flex-direction: column;
     background-color: rgba(0,0,0,0.5);
@@ -79,7 +80,7 @@
 
 }
 /*first image settings**/
-.img1{
+ .img1{
    
     height:300px;
     width:200px;
@@ -98,10 +99,10 @@
 #sugar{
     font-family: cursive;
     color:aquamarine
-}
+} 
 
 /*first image settings ends*/
-.main{
+ .main{
     display:flex;
     flex-direction: column;
     /* border:1px solid black; */
@@ -112,7 +113,7 @@
 
 
 
-}
+} 
 
 .headings{
     font-family: 'Courier New', Courier, monospace;
@@ -135,6 +136,7 @@
 
 
 }
+/*
 .btn:hover{
     cursor:pointer;
     background-color: black;
@@ -142,20 +144,20 @@
     box-shadow: 0 0 5px black,0 0 10px black, 0 0 15px black;
     font-weight:bold;
 
-}
+} */
 
 /*About Section*/
-/* #about{
+ /* #about{
     display:flex;
     flex-direction:column;
-    /* box-sizing: border-box;
+     box-sizing: border-box;
     padding:20px;
-    margin-bottom: 50px; }*/
+    margin-bottom: 50px; } */
 
 
 
 
-/* #pic{
+ /* #pic{
     display:flex;
 
 
@@ -165,7 +167,7 @@
     height:400px;
 
 
-} */ 
+}  */
 
 
 
@@ -227,6 +229,11 @@ html{
     padding: 5em 2em;
 }
 
+img{
+    display:block;
+    max-width:100%;
+}
+
 strong {font-weight: 900}
 
 :focus{
@@ -241,7 +248,7 @@ strong {font-weight: 900}
   .section__subtitle{
 
     margin:0;
-    font-size:var(--fs-h3);
+    font-size:1.5rem;
  
  }
  
@@ -255,8 +262,3 @@ strong {font-weight: 900}
  
  
  
-
- img{
-    display:block;
-    max-width:100%;
-}
