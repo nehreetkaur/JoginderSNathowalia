@@ -261,4 +261,100 @@ strong {font-weight: 900}
  }
  
  
- 
+ /*Work Area*/
+ .my-work{
+    background-color: #303030;;
+    color:#fff;
+    text-align: center;
+
+}
+
+
+.portfolio{
+
+   display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(300px,1fr)) ; /*automatically make three columns*/
+      /* max-width:;
+      margin:0 auto;  only if we give max-width*/
+}
+
+/*hover effect*/
+
+.portfolio__item{
+       background:#16e0bd;   
+    overflow: hidden;
+}
+
+.portfolio__img{
+    transition:transform 750ms cubic-bezier(.5,0,.5,1),
+                    opacity 250ms linear;
+
+}
+
+
+
+
+.portfolio__item:focus{
+    position:relative;
+    z-index:2;
+}
+
+
+
+.portfolio__img:hover,
+.portfolio__item:focus .portfolio__img
+{
+    transform:scale(1.2);
+    opacity: .75;
+    
+}
+.portfolio__item{
+    position: relative;
+}  
+.centered{
+    position: absolute;
+    color:black;
+    font-weight:bolder;
+    font-size: 1.5rem;
+    top: 50%;
+    left:30%;
+}    
+
+
+
+
+/* Individual portfolio item styles*/
+
+
+.portfolio-item-individual{
+
+    padding:0 2em 2em;
+    max-width:1000px;
+    margin:0 auto;
+
+}
+
+.portfolio-item-individual p{
+    max-width:600px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+ .res-links a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--clr-accent);
+    cursor:pointer;
+}
+
+.edit{
+    border: 1px solid white;
+
+}
+
+
+.logo > .edit{
+    width:35px;
+    height:35px;
+    border-radius: 50%;
+}
