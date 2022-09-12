@@ -56,7 +56,7 @@
 /*navbar ends*/
 /*Home Section*/
 
- #home{
+ /* #home{
     display:flex;
     flex-direction: column;
     background-color: rgba(0,0,0,0.5);
@@ -71,25 +71,25 @@
     position:absolute;
     top:0;
     right:0;
-    background: url('images/whitehome.jpg') no-repeat center center/cover;
-    height:900px;
+    /* background: url('images/whitehome.jpg') no-repeat center center/cover; */
+    /* height:900px;
     width: 100%;
     z-index:-1;
-    opacity: .8;
+    opacity: .8; */
 
 
-}
+
 /*first image settings**/
- .img1{
+ /* .img1{
    
     height:300px;
     width:200px;
     margin-right:820px;
     border-radius:1rem; ;
     
-}
+} */
 
-.head1{
+/* .head1{
     margin-left:-140px;
     margin-top: -190px;
     font-size:2rem;
@@ -99,32 +99,32 @@
 #sugar{
     font-family: cursive;
     color:aquamarine
-} 
+}  */
 
 /*first image settings ends*/
- .main{
+ /* .main{
     display:flex;
     flex-direction: column;
     /* border:1px solid black; */
-    align-items:center;
+    /* align-items:center;
     position:absolute;
     top:30%;
     right:10%;
 
 
 
-} 
+}  */
 
-.headings{
+/* .headings{
     font-family: 'Courier New', Courier, monospace;
     font-size:3rem;
     text-align:center;
     margin:40px 0px;
 
 
-}
+} */
 
-.btn{
+/* .btn{
     padding:10px 35px;
     background-color: blue;
     border:1px solid black;
@@ -135,16 +135,16 @@
 
 
 
-}
-/*
-.btn:hover{
+} 
+/* */
+/* .btn:hover{
     cursor:pointer;
     background-color: black;
     color: white;
     box-shadow: 0 0 5px black,0 0 10px black, 0 0 15px black;
     font-weight:bold;
 
-} */
+} */ 
 
 /*About Section*/
  /* #about{
@@ -169,8 +169,75 @@
 
 }  */
 
+/* My own port intro section*********************** */
+
+.btn{
+    display:inline-block;
+    padding: .5em  2.5em;
+    background:var(--clr-accent);
+    color:var(--clr-dark);
+    text-decoration: none;
+    cursor:pointer;
+    font-size: .8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight:var(--fw-bold);
+    transition:transform 200ms ease-in-out;
+}
+.btn:hover{
+    transform:scale(1.1);
+}
+/* Typography*/
+
+h1,
+h2,
+h3 {
+    line-height: 1;
+    margin: 0;
+}
 
 
+
+
+
+.section__title{
+    margin-bottom: .25em;
+  }
+  
+  
+  .section__title--intro{
+      font-weight: var(--fw-reg);
+  
+  }
+  
+  
+  .section__title--intro strong{
+      display:block;
+  }
+  
+  
+  
+  .section__subtitle{
+  
+     margin:0;
+     font-size:var(--fs-h3);
+  
+  }
+  
+  /* .section__subtitle--intro,
+  .section__subtitle--about{
+      background: var(--clr-accent);
+      font-family:var(--ff-secondary);
+      padding: .25em 1em;
+      margin-bottom:1em;
+  } */
+  
+  
+
+
+
+
+/* ends here */
 .about-me{
     max-width:1000px;
     margin:0 auto;
@@ -359,7 +426,7 @@ strong {font-weight: 900}
     border-radius: 50%;
 }
 
-/********** Contact************************/
+/* ********* Contact***********************
 
 .contact-left{
    flex-basis: 35%; 
@@ -429,4 +496,54 @@ form .btn2{
     font-size: 18px;
     margin-top: 20px;
     cursor:pointer;
-}
+} */
+
+/**footer**/
+.footer{
+    background:#111; /*its not pure black*/
+    color:#16e0bd;
+    text-align:center;
+    padding:2.5em 0;
+    font-size: 1.25rem;
+    }
+    
+    .footer a{
+         color: inherit;
+         text-decoration: none;
+        }
+    
+    
+    .footer__link{
+        
+        font-weight: 900;
+    
+    }
+    
+    
+    
+    .footer__link:hover,
+    .social-list__link:hover{
+        opacity:.7;
+    }
+    
+    .footer__link:hover{
+        text-decoration: underline;
+    }
+    
+    
+    .social-list{
+        list-style: none;
+        display:flex;
+        justify-content: center;
+        margin:2em  0 0;
+        padding:0;
+    
+    }
+    
+    .social-list__item{
+        margin:0 .5em;
+    }
+    
+    .social-list__link{
+        padding: .5em;
+    }
